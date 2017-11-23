@@ -45,7 +45,7 @@ class SwitchableHttpCachePurger implements PurgeClientInterface
     }
 
     /**
-     * Implemented for BC with deprecated PurgeClientInterface::purgeForContent from eZ kernel
+     * Implemented for BC with deprecated PurgeClientInterface::purgeForContent from eZ kernel.
      *
      * @param int $contentId
      * @param array $locationIds

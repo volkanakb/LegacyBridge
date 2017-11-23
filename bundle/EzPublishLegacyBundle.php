@@ -8,7 +8,6 @@
  */
 namespace eZ\Bundle\EzPublishLegacyBundle;
 
-use eZ\Bundle\EzPublishLegacyBundle\DependencyInjection\Compiler\HttpCachePass;
 use eZ\Bundle\EzPublishLegacyBundle\DependencyInjection\Compiler\RememberMeListenerPass;
 use eZ\Bundle\EzPublishLegacyBundle\DependencyInjection\Compiler\LegacyBundlesPass;
 use eZ\Bundle\EzPublishLegacyBundle\DependencyInjection\Compiler\LegacySessionPass;
