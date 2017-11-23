@@ -56,7 +56,6 @@ class EzPublishLegacyBundle extends Bundle
         $container->addCompilerPass(new RoutingPass());
         $container->addCompilerPass(new LegacySessionPass());
         $container->addCompilerPass(new RememberMeListenerPass());
-        $container->addCompilerPass(new HttpCachePass());
 
         /** @var \Symfony\Bundle\SecurityBundle\DependencyInjection\SecurityExtension $securityExtension */
         $securityExtension = $container->getExtension('security');
